@@ -1,0 +1,57 @@
+{
+  "name": "@tiger/v-table",
+  "version": "0.1.8-beta.9",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "types"
+  ],
+  "scripts": {
+    "docs:dev": "vuepress dev examples",
+    "docs:build": "vuepress build examples",
+    "build": "npx webpack --config build/webpack.prod.js",
+    "bootstrap": "npm publish"
+  },
+  "author": "09068102",
+  "license": "ISC",
+  "resolutions": {
+    "watchpack": "1.6.1"
+  },
+  "dependencies": {
+    "core-js": "2.6.4",
+    "vue": "^2.6.11",
+    "xlsx": "^0.16.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/runtime": "^7.11.2",
+    "@vue/babel-preset-app": "^4.4.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.0",
+    "element-ui": "^2.13.2",
+    "file-loader": "^6.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
+    "vue-loader": "15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.5.0",
+    "vuepress-plugin-vue-demo": "^1.0.15",
+    "watchpack": "1.6.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
